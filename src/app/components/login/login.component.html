@@ -1,0 +1,20 @@
+<div class="login">
+  <form class="custom-form" method="post">
+    <img src="../../../../assets/image/image2.png">
+    <h1>Sign up</h1>
+    <h5>Email Adress</h5>
+    <input
+      type="email"
+      name="email"
+      required="required"
+    />
+    <h5>Password</h5>
+    <input
+      type="text"
+      name="password"
+      required="required"
+    />
+    <button type="submit" (click)="login()" routerLink="/dashboard">Sing In</button>
+    <p>You do not have an account? <a routerLink="/register">Register</a></p>
+  </form>
+</div>

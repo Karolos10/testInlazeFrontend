@@ -1,0 +1,36 @@
+<div class="register">
+  <form class="custom-form" method="post">
+    <img src="../../../../assets/image/image2.png">
+    <h1>Sign in</h1>
+    <h5>Nickname</h5>
+    <input
+      type="nickname"
+      [(ngModel)]="nickname"
+      name="email"
+      required="required"
+    />
+    <h5>Name</h5>
+    <input
+      type="name"
+      [(ngModel)]="name"
+      name="password"
+      required="required"
+    />
+    <h5>Email Adress</h5>
+    <input
+      type="email"
+      [(ngModel)]="email"
+      name="password"
+      required="required"
+    />
+    <h5>Password</h5>
+    <input
+      type="password"
+      [(ngModel)]="password"
+      name="password"
+      required="required"
+    />
+    <button type="submit" (click)="register()">Create</button>
+    <a routerLink="/login">Volver</a>
+  </form>
+</div>
